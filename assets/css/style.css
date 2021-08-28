@@ -1,0 +1,30 @@
+h1 {
+  text-align: center; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  width: 22em;
+  height: 22em;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 1em; }
+  form p {
+    background-color: white;
+    text-align: end;
+    padding: .5em; }
+  form div {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    margin: 0 auto; }
+    form div div {
+      display: flex;
+      column-gap: 1em; }
+      form div div .btn-large {
+        width: 5.84em; }
+      form div div input {
+        width: 3em;
+        height: 3em; }
